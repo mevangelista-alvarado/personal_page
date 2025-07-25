@@ -2,46 +2,60 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Miguel Evangelista‑Alvarado</title>
+  <title>CV | Miguel Evangelista‑Alvarado</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="static/favicon.ico">
-  <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="static/style.css">
+  <link rel="icon" href="../static/favicon.ico">
+  <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
   <header>
-    <img src="static/me.jpeg" alt="Foto de Miguel Evangelista‑Alvarado" width="150" height="150" />
+    <img src="../static/me.jpeg" alt="Foto de Miguel Evangelista‑Alvarado" width="150" height="150" />
     <h1>Miguel Evangelista‑Alvarado</h1>
     <p>Matemático / Científico de Datos / Desarrollador Backend Python</p>
     <button id="toggleTheme">🌙 Modo oscuro</button>
   </header>
-
   <nav class="nav-buttons">
-    <a href="index.html" class="active">Inicio</a>
-    <a href="cv/">CV</a>
-    <a href="papers/">Publicaciones</a>
-    <a href="talks/">Charlas</a>
-    <a href="teaching/">Docencia</a>
-    <a href="students/">Estudiantes</a>
-    <a href="misc/">Miscelánea</a>
+    <a href="../index.html">Inicio</a>
+    <a href="../cv/" class="active">CV</a>
+    <a href="../papers/">Publicaciones</a>
+    <a href="../talks/">Charlas</a>
+    <a href="../teaching/">Docencia</a>
+    <a href="../students/">Estudiantes</a>
+    <a href="../misc/">Miscelánea</a>
   </nav>
-
   <main>
     <section>
-      <h2>Inicio</h2>
-      <p>
-        Soy profesor en la Universidad Nacional Rosario Castellanos (UNRC). Desarrollador de backend Python y científico de datos en Prescrypto.
-      </p>
-      <p>
-        También, soy estudiante de doctorado bajo la supervisión del Dr. Pablo Suárez-Serrato en el Instituto de Matemáticas-CU (UNAM), Ciudad de México.
-      </p>
-      <p>
-        miguel.eva.alv@rcastellanos.cdmx.gob.mx
-      </p>
+      <h2>CV</h2>
+      <h3>Profesional</h3>
+      <ul>
+        <li>Profesor — Universidad Nacional Rosario Castellanos (UNRC).
+          <br>2023 — Actualidad.
+        </li>
+        <br>
+        <li>Desarrollador Backend Python & Científico de Datos — Prescrypto. 
+          <br>2018 — Actualidad.
+        </li>
+      </ul>
+      <h3>Educación</h3>
+      <ul>
+        <li>Doctorado en Ciencias Matemáticas — Universidad Nacional Autónoma de México (UNAM).
+          <br>2020 — Actualidad.
+          <br>Asesor: Dr. Pablo Suárez Serrato.
+        </li>
+        <br>
+        <li>Maestría en Ciencias Matemáticas — Universidad Nacional Autónoma de México (UNAM).
+          <br>2015 — 2017.
+          <br>Asesor: Dr. Pablo Suárez Serrato.
+        </li>
+        <br>
+        <li>Licenciatura en Matemáticas — Universidad Autónoma de Guerrero (UAGro).
+          <br>2009 — 2014.
+          <br>Asesor: Dr. Pablo Suárez Serrato.
+        </li>
+      </ul>
     </section>
   </main>
-
   <footer>
     <div class="social-icons">
       <a href="https://github.com/mevangelista-alvarado" target="_blank" aria-label="GitHub" title="GitHub">
@@ -86,10 +100,9 @@
     </div>
     <p>&copy; <span id="year"></span> Miguel Evangelista-Alvarado. Todos los derechos reservados.</p>
   </footer>
-
-  <script src="static/script.js"></script>
+  <script src="../static/script.js"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
-</html>
+</html> 

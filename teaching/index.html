@@ -2,46 +2,82 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <title>Miguel Evangelista‑Alvarado</title>
+  <title>Docencia | Miguel Evangelista‑Alvarado</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="icon" href="static/favicon.ico">
-  <link rel="shortcut icon" href="static/favicon.ico" type="image/x-icon">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="static/style.css">
+  <link rel="icon" href="../static/favicon.ico">
+  <link rel="shortcut icon" href="../static/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
   <header>
-    <img src="static/me.jpeg" alt="Foto de Miguel Evangelista‑Alvarado" width="150" height="150" />
+    <img src="../static/me.jpeg" alt="Foto de Miguel Evangelista‑Alvarado" width="150" height="150" />
     <h1>Miguel Evangelista‑Alvarado</h1>
     <p>Matemático / Científico de Datos / Desarrollador Backend Python</p>
     <button id="toggleTheme">🌙 Modo oscuro</button>
   </header>
-
   <nav class="nav-buttons">
-    <a href="index.html" class="active">Inicio</a>
-    <a href="cv/">CV</a>
-    <a href="papers/">Publicaciones</a>
-    <a href="talks/">Charlas</a>
-    <a href="teaching/">Docencia</a>
-    <a href="students/">Estudiantes</a>
-    <a href="misc/">Miscelánea</a>
+    <a href="../index.html">Inicio</a>
+    <a href="../cv/">CV</a>
+    <a href="../papers/">Publicaciones</a>
+    <a href="../talks/">Charlas</a>
+    <a href="../teaching/" class="active">Docencia</a>
+    <a href="../students/">Estudiantes</a>
+    <a href="../misc/">Miscelánea</a>
   </nav>
-
   <main>
     <section>
-      <h2>Inicio</h2>
-      <p>
-        Soy profesor en la Universidad Nacional Rosario Castellanos (UNRC). Desarrollador de backend Python y científico de datos en Prescrypto.
-      </p>
-      <p>
-        También, soy estudiante de doctorado bajo la supervisión del Dr. Pablo Suárez-Serrato en el Instituto de Matemáticas-CU (UNAM), Ciudad de México.
-      </p>
-      <p>
-        miguel.eva.alv@rcastellanos.cdmx.gob.mx
-      </p>
+      <h2>Docencia</h2>
+      <ul>
+        <h4>2025</h4>
+        <p>
+          2025-1 -- Computo Cognitivo -- UNRC
+          <br>2025-1 -- Herramientas Avanzadas para la Gestión de Grandes Volúmenes de Datos (x2) -- UNRC 
+          <br>2025-1 -- Visualización de Datos -- UNRC 
+          <br>2025-1 -- Logica de Programación (x2) -- UNRC 
+        </p>
+        
+        <h4>2024</h4>
+        <p>
+          2024-2 -- Computo Cognitivo -- URC 
+          <br>2024-2 -- Computo de Alto Rendimiento -- URC 
+          <br>2024-2 -- Modelado y Simulación -- URC 
+          <br>2024-2 -- Minería de Datos -- URC 
+          <br>2024-2 -- Investigación de Operaciones -- URC 
+          <br>2024-2 -- Estadistica -- URC 
+          <br>2024-2 -- Cálculo Diferencial  -- URC        
+          <br>2024-1 -- Minería de Datos -- URC 
+          <br>2024-1 -- Calidad y Preparación de Datos -- URC
+          <br>2024-1 -- Inteligencia Artificial (x2) -- URC
+        </p>
+
+        <h4>2023</h4>
+        <p>
+          2023-2 -- Inteligencia Artificial -- IESRC 
+          <br>2023-2 -- Aprendizaje de Máquina (x2) -- IESRC 
+          <br>2023-1 -- Cálculo Integral -- IESRC 
+          <br>2023-1 -- Cálculo Diferencial -- IESRC 
+        </p>
+        
+        <h4>2021</h4>
+        <p>
+          2021-1 -- Geometría Analítica II -- UNAM -- Ayudante de Profesor
+        </p>
+
+        <h4>2020</h4>
+        <p>
+          2020-2 -- Geometría Analítica I -- UNAM -- Ayudante de Profesor
+        </p>
+
+        <h4>Notas</h4>
+        <p>
+          UNAM -- Universidad Nacional Autónoma de México
+          <br>IESRC -- Instituto de Estudios Superiores "Rosario Castellanos"
+          <br>URC -- Universidad "Rosario Castellanos"
+          <br>UNRC -- Universidad Nacional "Rosario Castellanos"
+        </p>
+      </ul>
     </section>
   </main>
-
   <footer>
     <div class="social-icons">
       <a href="https://github.com/mevangelista-alvarado" target="_blank" aria-label="GitHub" title="GitHub">
@@ -86,10 +122,9 @@
     </div>
     <p>&copy; <span id="year"></span> Miguel Evangelista-Alvarado. Todos los derechos reservados.</p>
   </footer>
-
-  <script src="static/script.js"></script>
+  <script src="../static/script.js"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
-</html>
+</html> 

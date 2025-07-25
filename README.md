@@ -4,10 +4,6 @@ Este repositorio contiene el código fuente de la página personal de Miguel Eva
 
 ## Levantar el sitio en local
 
-Puedes ver el sitio en tu máquina local de dos formas:
-
-### Opción 1: Usando Python (recomendado)
-
 1. Abre una terminal en la carpeta raíz del proyecto.
 2. Ejecuta el siguiente comando:
    
@@ -15,12 +11,6 @@ Puedes ver el sitio en tu máquina local de dos formas:
    python3 -m http.server 8000
    ```
 3. Abre tu navegador y visita: [http://localhost:8000](http://localhost:8000)
-
-### Opción 2: Usando la extensión Live Server de VSCode
-
-1. Abre la carpeta del proyecto en Visual Studio Code.
-2. Instala la extensión "Live Server".
-3. Haz clic derecho en `index.html` y selecciona "Open with Live Server".
 
 ---
 
@@ -65,15 +55,10 @@ Puedes ver el sitio en tu máquina local de dos formas:
 
 ## Notas
 - Puedes editar los archivos HTML directamente para actualizar el contenido.
-- Los enlaces de redes sociales y plataformas académicas están en el footer de cada página.
 - Si cambias la estructura de carpetas, asegúrate de actualizar los enlaces relativos en los menús y footers.
-
----
-
-¿Dudas? Contacta a Miguel Evangelista-Alvarado. 
 
 ---
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles. 
+Este proyecto está licenciado bajo la Licencia MIT.
